@@ -34,11 +34,17 @@
   },
   "name":"unesco-game",
   "resources":[
+    {"id":{"name":"obj_milbook_closed","path":"objects/obj_milbook_closed/obj_milbook_closed.yy",},},
+    {"id":{"name":"obj_milbook_open","path":"objects/obj_milbook_open/obj_milbook_open.yy",},},
+    {"id":{"name":"MILBook","path":"rooms/MILBook/MILBook.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_book_close","path":"sprites/spr_book_close/spr_book_close.yy",},},
+    {"id":{"name":"spr_book_open","path":"sprites/spr_book_open/spr_book_open.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"MILBook","path":"rooms/MILBook/MILBook.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
