@@ -35,9 +35,11 @@
   "name":"unesco-game",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"default_characters","path":"scripts/default_characters/default_characters.yy",},},
+    {"id":{"name":"config","path":"scripts/config/config.yy",},},
     {"id":{"name":"game_handler","path":"scripts/game_handler/game_handler.yy",},},
     {"id":{"name":"helpers","path":"scripts/helpers/helpers.yy",},},
+    {"id":{"name":"save_system","path":"scripts/save_system/save_system.yy",},},
+    {"id":{"name":"tests","path":"scripts/tests/tests.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

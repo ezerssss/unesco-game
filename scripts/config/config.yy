@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"default_characters",
+  "%Name":"config",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"default_characters",
+  "name":"config",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
