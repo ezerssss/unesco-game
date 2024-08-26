@@ -61,7 +61,7 @@ function get_character_article(_character_idx, _article_idx, _characters) {
 	
 	var _character_article = {
 		name: _character.name,
-		description: _character.description,
+		sprite: _character.sprite,
 		credibility: _character.credibility,
 		past_posts: _character.past_posts,
 		article: _article,

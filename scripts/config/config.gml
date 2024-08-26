@@ -5,7 +5,7 @@
 global.starting_characters = [
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -94,7 +94,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -123,7 +123,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -152,7 +152,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -181,7 +181,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -210,7 +210,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -239,7 +239,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -268,7 +268,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -297,7 +297,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -326,7 +326,7 @@ global.starting_characters = [
 	},
 	{
 		name: "Mister Potato Internet",
-		description: "Going crazy internet persona that obsesses too much on potatoes",
+		sprite: spr_sample_character,
 		credibility: 19,
 		past_posts: [
 			{

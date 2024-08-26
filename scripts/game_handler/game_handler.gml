@@ -1,4 +1,4 @@
-// Starting configuration
+// Starting configuration to randomize seed
 randomize();
 
 // Load previous game state
@@ -31,10 +31,10 @@ function get_current_article() {
 }
 
 // Gets a new article from the article queue and the associated character. 
-// Returns {name, description, credibility, past_posts, article: {title, date, author, content, valid, reasons, viewed}}
+// Returns {name, sprite, credibility, past_posts, article: {title, date, author, content, valid, reasons, viewed}}
 function get_new_article() {
 	if (ds_queue_empty(global.game_state.article_queue)) {
-		throw("Article queue is empty! You are probably calling this function too many times, or the amoung of articles are not enough.");	
+		throw("Article queue is empty! You are probably calling this function too many times, or the amount of articles are not enough.");	
 	}
 	
 	var _q_el = ds_queue_dequeue(global.game_state.article_queue);
@@ -44,6 +44,10 @@ function get_new_article() {
 	global.game_state.current_article = _character_article;
 	
 	return _character_article;
+}
+
+function get_num_articles_viewed() {
+	return global.game_state.articles_viewed;
 }
 
 function increment_correct_verdicts() {
