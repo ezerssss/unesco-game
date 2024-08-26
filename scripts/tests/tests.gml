@@ -61,42 +61,43 @@ function unit_test_1() {
 	}
 
 	try {
-		get_current_article();
-		show_debug_message("Get current article ✅");
+		get_current_character();
+		show_debug_message("Get current character ✅");
 		_score += 1;
 	} catch (_error) {
 		show_debug_message(_error.message);
-		show_debug_message("Get current article ❌");
+		show_debug_message("Get current character ❌");
 	}
 
 	try {
 		var _prev_articles_viewed = global.game_state.articles_viewed;
 	
-		var _new_article = get_new_article();
+		// Getting a new character also means getting a new article
+		var _new_character = get_new_character();
 	
 		if (global.game_state.articles_viewed != _prev_articles_viewed + 1) {
 			throw("Game state articles viewed not incremented");	
 		}
 	
 		// TODO: Garbage and naive object equality :), there's probably a better way to check object equality
-		if (json_stringify(_new_article) != json_stringify(global.game_state.current_article)) {
+		if (json_stringify(_new_character) != json_stringify(global.game_state.current_character)) {
 			throw("Game state current article not the same!");	
 		}
 	
-		show_debug_message("Get new article ✅");
+		show_debug_message("Get new character ✅");
 		_score += 1;
 	} catch (_error) {
 		show_debug_message(_error.message);
-		show_debug_message("Get new article ❌");
+		show_debug_message("Get new character ❌");
 	}
 
 	try {
-		get_current_article();
-		show_debug_message("Get current article after new article ✅");
+		get_current_character();
+		show_debug_message("Get current character after new article ✅");
 		_score += 1;
 	} catch (_error) {
 		show_debug_message(_error.message);
-		show_debug_message("Get current article after new article ❌");
+		show_debug_message("Get current character after new article ❌");
 	}
 
 	try {

@@ -55,7 +55,8 @@ function generate_article_queue() {
 	return _queue;
 }
 
-function get_character_article(_character_idx, _article_idx, _characters) {
+// Returns a character with a specific article
+function get_character(_character_idx, _article_idx, _characters) {
 	var _character = _characters[_character_idx];
 	var _article = _character.articles[_article_idx];
 	

@@ -8,42 +8,42 @@ global.game_state = load_game_save();
 if (global.game_state == undefined) {
 	var _new_article_queue = generate_article_queue();
 	var _q_el = ds_queue_dequeue(_new_article_queue);
-	var _current_article = get_character_article(_q_el.character_index, _q_el.article_index, global.starting_characters);
+	var _current_character = get_character(_q_el.character_index, _q_el.article_index, global.starting_characters);
 	
 	// Default new game state
 	global.game_state = {
 		day: 1,
 		characters: starting_characters,
 		article_queue: _new_article_queue,
-		current_article: _current_article,
+		current_character: _current_character,
 		articles_viewed: 1,
 		correct_verdicts: 0,
 		wrong_verdicts: 0,
 	};
 } 
 
-function get_current_article() {
-	if (!global.game_state.current_article) {
-		throw("No current article! The game state is probably not instantiated properly, or have been tampered with manually.")
+function get_current_character() {
+	if (!global.game_state.current_character) {
+		throw("No current character! The game state is probably not instantiated properly, or have been tampered with manually.")
 	}
 	
-	return global.game_state.current_article;
+	return global.game_state.current_character;
 }
 
-// Gets a new article from the article queue and the associated character. 
+// Gets a new character from the article queue and the associated article. 
 // Returns {name, sprite, credibility, past_posts, article: {title, date, author, content, valid, reasons, viewed}}
-function get_new_article() {
+function get_new_character() {
 	if (ds_queue_empty(global.game_state.article_queue)) {
 		throw("Article queue is empty! You are probably calling this function too many times, or the amount of articles are not enough.");	
 	}
 	
 	var _q_el = ds_queue_dequeue(global.game_state.article_queue);
-	var _character_article = get_character_article(_q_el.character_index, _q_el.article_index, global.game_state.characters);
+	var _character = get_character(_q_el.character_index, _q_el.article_index, global.game_state.characters);
 	
 	global.game_state.articles_viewed += 1;
-	global.game_state.current_article = _character_article;
+	global.game_state.current_character = _character;
 	
-	return _character_article;
+	return _character;
 }
 
 function get_num_articles_viewed() {
