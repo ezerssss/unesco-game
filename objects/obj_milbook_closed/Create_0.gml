@@ -1,6 +1,17 @@
-// Insert Code to get day variable
+// Get the Day
+day = get_day();
 
 image_speed = 0;
-image_index = 4;
 
-// Switch statements to change the frame
+switch(day){
+	case 1:
+		image_index = 0;
+		break;
+	case 2:
+		image_index = 2;
+		break;
+	case 3:
+		image_index = 4;
+		break;
+}
+
