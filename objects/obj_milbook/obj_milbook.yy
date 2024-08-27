@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exit",
+  "%Name":"obj_milbook",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_exit",
+  "name":"obj_milbook",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cross",
-    "path":"sprites/spr_cross/spr_cross.yy",
+    "name":"spr_book_close",
+    "path":"sprites/spr_book_close/spr_book_close.yy",
   },
   "spriteMaskId":null,
   "visible":true,
