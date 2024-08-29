@@ -1,7 +1,8 @@
-var instance = false;
-instance = instance_exists(obj_popup_exitConfirm);
-if(!instance)
+var exists = false;
+exists = instance_exists(obj_popup_confirm);
+global.status=-1;
+if(!exists)
 {
-	instance_create_layer(0, 0, "Instances", obj_popup_exitConfirm);
+	layer_sequence_create("Top", room_width / 2, room_height / 2, seq_popup);
+	
 }
-
