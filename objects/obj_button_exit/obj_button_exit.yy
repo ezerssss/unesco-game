@@ -8,8 +8,8 @@
   "name":"obj_button_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Rooms/Main Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

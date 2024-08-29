@@ -6,8 +6,8 @@
   "name":"obj_popup_confirm",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Rooms/Main Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"obj_button_cancel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Rooms/Main Menu.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Buttons.yy",
   },
   "parentObjectId":{
     "name":"obj_popup_confirm",
