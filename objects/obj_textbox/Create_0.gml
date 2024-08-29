@@ -1,5 +1,5 @@
-text[0] = "Hello World";
-text[1] = "This is a test for our text boxes hihi";
+text[0] = "In the year 2500, AI has taken over the world wide web. AI generated content and misinformation has overrun the internet filling it with malicious lies.";
+text[1] = "People didn’t even bother to fact check the materials that they see online. As a result, the world wide web was reset and was renamed as DAFFASDFAS.";
 
 text_current = 0;
 text_last = 1;
