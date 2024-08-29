@@ -7,6 +7,6 @@ else
 {
 	if(global.status == 1)
 	{
-		room_goto(room_milbook);
+		room_goto(room_intro);
 	}
 }
