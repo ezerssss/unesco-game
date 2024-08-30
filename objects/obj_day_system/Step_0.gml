@@ -12,21 +12,16 @@ global.time_elapsed += 1;
 
 // for simulation
 // every 1 secoond, an article is viewed
-if (global.time_elapsed >= 60) {
+if (global.time_elapsed % 60 == 0) {
+	show_debug_message(global.game_state.articles_viewed);
 
 	
-	if (get_num_articles_viewed() == 5) {
+	if (get_num_articles_viewed() % 5 == 0 ) {
 	    increment_day();
-	    global.game_state.articles_viewed = 0;
-		
-	} else {
-	  
-	    if (global.game_state.articles_viewed < 5) {
-	        global.game_state.articles_viewed += 1;
-	    }
 	}
-	
-    global.time_elapsed = 0;
+	try {
+		get_new_character();	
+	}
 }
 
 switch(get_day()){
