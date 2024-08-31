@@ -13,11 +13,7 @@ article = get_current_character().article;
 title = article.title;
 author = article.author;
 date = article.date;
-content = "Read the full story...";
-
-title_height = string_height(title);
-author_height = string_height(author);
-date_height = string_height(date);
+content = "Click to read the full story...";
 
 textbox_x = 608;
 textbox_y = 215;
