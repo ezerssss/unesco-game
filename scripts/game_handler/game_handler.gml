@@ -67,4 +67,4 @@ function increment_day() {
 	global.game_state.day += 1;	
 }
 
-unit_test_1();
+//unit_test_1();
