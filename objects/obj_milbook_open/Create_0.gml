@@ -1,5 +1,5 @@
 day = get_day();
-
+ 
 switch(day){
 	case 1:
 		image_index = 0;
