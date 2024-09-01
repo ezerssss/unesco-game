@@ -19,3 +19,5 @@ textbox_x = 608;
 textbox_y = 215;
 txt_x = textbox_x + border;
 txt_y = textbox_y + border;
+txtb_spr_w = sprite_get_width(spr_bg_article);
+txtb_spr_h = sprite_get_height(spr_bg_article);

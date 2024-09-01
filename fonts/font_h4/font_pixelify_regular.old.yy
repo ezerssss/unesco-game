@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_pixelify_regular_outline",
+  "%Name":"font_pixelify_regular",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":14,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":19,
   "maintainGms1Font":false,
-  "name":"font_pixelify_regular_outline",
+  "name":"font_pixelify_regular",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

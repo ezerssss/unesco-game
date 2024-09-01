@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_h3",
+  "%Name":"font_h4",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":14,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":19,
   "maintainGms1Font":false,
-  "name":"font_h3",
+  "name":"font_h4",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

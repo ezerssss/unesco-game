@@ -1,8 +1,6 @@
 // ****** ARTICLE HEAD ******
 
 // *** draw textbox ***
-txtb_spr_w = sprite_get_width(spr_bg_article);
-txtb_spr_h = sprite_get_height(spr_bg_article);
 draw_sprite_ext(txtb_spr, 0, textbox_x, textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
 
 // *** draw text ***
@@ -24,5 +22,5 @@ var _date_height = string_height_ext(date, line_sep, line_width);
 draw_text_ext_color(txt_x, txt_y + _title_height + line_sep, author, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
 draw_text_ext_color(txt_x, txt_y + _title_height + _author_height + line_sep, date, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
 
-draw_set_font(font_h3);
+draw_set_font(font_h4);
 draw_text_ext_color(txt_x, txt_y + _title_height + _author_height + _date_height + line_sep, content, line_sep, line_width, c_gray, c_gray, c_gray, c_gray, 1);

@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_pixelify_regular",
+  "%Name":"font_h3",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":29,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":38,
   "maintainGms1Font":false,
-  "name":"font_pixelify_regular",
+  "name":"font_h3",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
