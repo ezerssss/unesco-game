@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_h3",
+  "%Name":"font_caption",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":20,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":26,
   "maintainGms1Font":false,
-  "name":"font_h3",
+  "name":"font_caption",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -138,6 +138,6 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "TTFName":"E:\\hackathons\\unesco\\unesco-game\\fonts\\font_h3\\PixelifySans-Regular.ttf",
+  "TTFName":"E:\\hackathons\\unesco\\unesco-game\\fonts\\font_caption\\PixelifySans-Regular.ttf",
   "usesSDF":false,
 }

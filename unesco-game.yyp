@@ -40,7 +40,8 @@
   },
   "name":"unesco-game",
   "resources":[
-    {"id":{"name":"font_body","path":"fonts/font_body/font_body.yy",},},
+    {"id":{"name":"font_caption","path":"fonts/font_caption/font_caption.yy",},},
+    {"id":{"name":"font_content","path":"fonts/font_content/font_content.yy",},},
     {"id":{"name":"font_h1","path":"fonts/font_h1/font_h1.yy",},},
     {"id":{"name":"font_h2","path":"fonts/font_h2/font_h2.yy",},},
     {"id":{"name":"font_h3","path":"fonts/font_h3/font_h3.yy",},},

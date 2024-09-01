@@ -9,5 +9,5 @@ draw_set_halign(fa_left);
 
 
 // title
-draw_set_font(font_body);
+draw_set_font(font_content);
 draw_text_ext_color(txt_x, txt_y, content, line_sep, line_width, c_black, c_black, c_black, c_black, 1);

@@ -3,7 +3,7 @@
 // textbox parameters
 textbox_width = 250;
 textbox_height = 360;
-border = 32;
+border = 30;
 line_sep = 24;
 line_width = textbox_width - (border * 2);
 txtb_spr = spr_bg_article;
