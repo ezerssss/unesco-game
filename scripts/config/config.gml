@@ -14,8 +14,8 @@ global.starting_characters = [
 			},
 			{
 				title: "How to bypass internet restriction?",
-				approved: false,
-			}
+				approved: true,
+			},
 		],
 		articles: [
 			{
@@ -41,10 +41,6 @@ global.starting_characters = [
 				title: "The world is ending!",
 				approved: false,
 			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
 		],
 		articles: [
 			{
@@ -68,11 +64,7 @@ global.starting_characters = [
 		past_posts: [
 			{
 				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
+				approved: true,
 			},
 		],
 		articles: [

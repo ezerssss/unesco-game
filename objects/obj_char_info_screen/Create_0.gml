@@ -1,5 +1,7 @@
 // ****** CHARACTER INFO ******
 
+global.num_past_p_viewed = 0;
+
 // textbox parameters
 textbox_width = 250;
 textbox_height = 360;
@@ -13,6 +15,7 @@ character = get_current_character();
 name = character.name;
 credibility = string(character.credibility);
 past_posts = character.past_posts;
+past_posts_len = array_length(past_posts);
 
 textbox_x = 1470;
 textbox_y = 215;

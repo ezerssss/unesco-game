@@ -1,4 +1,4 @@
-// ****** ARTICLE HEAD ******
+// ****** PAST POSTS ******
 
 // *** draw textbox ***
 draw_sprite_ext(txtb_spr, 0, textbox_x, textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
