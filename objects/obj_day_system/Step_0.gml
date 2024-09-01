@@ -19,9 +19,8 @@ if (global.time_elapsed % 60 == 0) {
 	if (get_num_articles_viewed() % 5 == 0 ) {
 	    increment_day();
 	}
-	try {
-		get_new_character();	
-	}
+	
+	get_new_character();
 }
 
 switch(get_day()){
