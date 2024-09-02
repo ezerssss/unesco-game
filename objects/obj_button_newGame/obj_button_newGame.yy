@@ -3,16 +3,20 @@
   "%Name":"obj_button_newGame",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_button_newGame",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"btn_text","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"New Game",},
+  ],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Buttons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_button",
-    "path":"sprites/sprite_button/sprite_button.yy",
+    "name":"round_button_hover",
+    "path":"sprites/round_button_hover/round_button_hover.yy",
   },
   "spriteMaskId":null,
   "visible":true,

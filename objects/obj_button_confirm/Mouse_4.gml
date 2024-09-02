@@ -1,3 +1,4 @@
+event_inherited();
 var _status = global.status;
 switch(_status){
 	case -1:

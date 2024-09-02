@@ -6,12 +6,17 @@
   ],
   "managed":true,
   "name":"obj_button_pause",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"btn_text","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+  ],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Buttons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cross",
-    "path":"sprites/spr_cross/spr_cross.yy",
+    "name":"spr_pause",
+    "path":"sprites/spr_pause/spr_pause.yy",
   },
   "spriteMaskId":null,
   "visible":true,
