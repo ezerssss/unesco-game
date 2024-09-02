@@ -9,7 +9,18 @@ global.starting_characters = [
 		credibility: 19,
 		past_posts: [
 			{
-				title: "The world is ending!",
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing",
+				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},{
+				title: "Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
@@ -41,6 +52,22 @@ global.starting_characters = [
 				title: "The world is ending!",
 				approved: false,
 			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing",
+				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing",
+				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
 		],
 		articles: [
 			{
@@ -64,6 +91,22 @@ global.starting_characters = [
 		past_posts: [
 			{
 				title: "The world is ending!",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing",
+				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing",
+				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
 				approved: true,
 			},
 		],

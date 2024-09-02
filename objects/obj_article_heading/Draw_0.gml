@@ -9,9 +9,10 @@ draw_set_halign(fa_left);
 
 // title
 draw_set_font(font_h1);
+var _with_border_y = txt_y + 10;
 var _title_height = string_height_ext(title, line_sep * 2, line_width);
 
-draw_text_ext_color(txt_x, txt_y, title, line_sep * 2, line_width, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(txt_x, _with_border_y, title, line_sep * 2, line_width, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
 
 
 // date and author
@@ -19,8 +20,8 @@ draw_set_font(font_h2);
 var _author_height = string_height_ext(author, line_sep, line_width);
 var _date_height = string_height_ext(date, line_sep, line_width);
 
-draw_text_ext_color(txt_x, txt_y + _title_height + line_sep, author, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
-draw_text_ext_color(txt_x, txt_y + _title_height + _author_height + line_sep, date, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(txt_x, _with_border_y + _title_height + line_sep / 2, author, line_sep, line_width, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+draw_text_ext_color(txt_x, _with_border_y + _title_height + _author_height + line_sep / 2, date, line_sep, line_width, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
 
 draw_set_font(font_h4);
-draw_text_ext_color(txt_x, txt_y + _title_height + _author_height + _date_height + line_sep, content, line_sep, line_width, c_gray, c_gray, c_gray, c_gray, 1);
+draw_text_ext_color(txt_x, _with_border_y + _title_height + _author_height + _date_height + line_sep / 2, content, line_sep, line_width, c_gray, c_gray, c_gray, c_gray, 1);

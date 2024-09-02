@@ -1,16 +1,16 @@
-// ****** ARTICLE CONTENT ******
+// ****** PAST POSTS ******
 
 // textbox parameters
 textbox_width = 1185;
 textbox_height = 625;
 border = 64;
-line_sep = 42;
+line_sep = 32;
 line_width = textbox_width - (border * 2);
 txtb_spr = spr_bg_article;
 
 // the text
-article = get_current_character().article;
-content = article.content;
+past_posts = get_current_character().past_posts;
+past_posts_len = array_length(past_posts);
 
 textbox_x = 95;
 textbox_y = 64;
