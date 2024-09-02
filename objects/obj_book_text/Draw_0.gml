@@ -1,5 +1,5 @@
 draw_set_font(font_ancient);
-draw_set_color(c_dkgray);
+draw_set_color(c_black);
 
 var _day = 1;
 
