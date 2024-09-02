@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_popup_confirm",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_popup_confirm",
   "overriddenProperties":[],
@@ -30,12 +28,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite7",
-    "path":"sprites/Sprite7/Sprite7.yy",
+    "name":"spr_popup",
+    "path":"sprites/spr_popup/spr_popup.yy",
   },
   "spriteMaskId":{
-    "name":"Sprite7",
-    "path":"sprites/Sprite7/Sprite7.yy",
+    "name":"spr_popup",
+    "path":"sprites/spr_popup/spr_popup.yy",
   },
   "visible":true,
 }
