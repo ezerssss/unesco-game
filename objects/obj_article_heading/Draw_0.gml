@@ -9,7 +9,7 @@ draw_set_halign(fa_left);
 
 // title
 draw_set_font(font_h1);
-var _with_border_y = txt_y + 10;
+var _with_border_y = txt_y - 10;
 var _title_height = string_height_ext(title, line_sep * 2, line_width);
 
 draw_text_ext_color(txt_x, _with_border_y, title, line_sep * 2, line_width, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);

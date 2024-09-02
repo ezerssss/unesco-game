@@ -10,4 +10,4 @@ draw_set_halign(fa_left);
 
 // title
 draw_set_font(font_body);
-draw_text_ext_color(txt_x, txt_y + 20, content, line_sep, line_width, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);
+draw_text_ext_color(txt_x, txt_y + 15, content, line_sep, line_width, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 1);

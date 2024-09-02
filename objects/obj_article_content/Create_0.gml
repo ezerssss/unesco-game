@@ -6,7 +6,7 @@ textbox_height = 625;
 border = 64;
 line_sep = 42;
 line_width = textbox_width - (border * 2);
-txtb_spr = spr_bg_article;
+txtb_spr = spr_bg_article_flipped;
 
 // the text
 article = get_current_character().article;
