@@ -12,7 +12,7 @@ txtb_spr = spr_bg_article_flipped;
 article = get_current_character().article;
 content = article.content;
 title = article.title;
-
+references = article.references;
 
 textbox_x = 95;
 textbox_y = 64;
@@ -21,4 +21,4 @@ txtb_spr_w = sprite_get_width(spr_bg_article);
 txtb_spr_h = sprite_get_height(spr_bg_article);
 
 txt_x = textbox_x + border;
-txt_y = textbox_y + border + 5;
+txt_y = textbox_y + border - 22;

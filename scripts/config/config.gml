@@ -33,7 +33,8 @@ global.starting_characters = [
 				title: "Bypassing the Internet Barrier Using a Potato Gun",
 				date: "1929-10-11",
 				author: "Mister p0tat0 Internet",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus Page.",
+				content: "Recent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [
 					"No author",
@@ -74,7 +75,8 @@ global.starting_characters = [
 				title: "Black Holes: The Mysteries Unveiled",
 				date: "1929-10-11",
 				author: "Mister p0tat0 Internet",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus Page.",
+				content: "Recent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [
 					"No author",
@@ -115,7 +117,8 @@ global.starting_characters = [
 				title: "Uncovering Corporate Corruption",
 				date: "1929-10-11",
 				author: "Mister p0tat0 Internet",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus Page.",
+				content: "Recent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [
 					"No author",
