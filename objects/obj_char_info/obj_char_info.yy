@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bg_article_flipped",
+    "path":"sprites/spr_bg_article_flipped/spr_bg_article_flipped.yy",
+  },
   "spriteMaskId":null,
   "visible":false,
 }

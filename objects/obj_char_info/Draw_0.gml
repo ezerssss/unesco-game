@@ -39,11 +39,10 @@ var _p_h = _title_height + (border / 2);
 var _p_w = 190;
 
 if (_post.approved) {
-		draw_sprite_ext(spr_bg_article_true, 0, txt_x, _p_y, _p_w/txtb_spr_w, _p_h/txtb_spr_h, 0, c_white, 1);
-} else {
-		draw_sprite_ext(spr_bg_article_false, 0, txt_x, _p_y, _p_w/txtb_spr_w, _p_h/txtb_spr_h, 0, c_white, 1);
+		draw_sprite_ext(spr_bg_article_true, 0, txt_x, _p_y, _p_w/txt_spr_w, _p_h/txt_spr_h, 0, c_white, 1);
+} else	{
+		draw_sprite_ext(spr_bg_article_false, 0, txt_x, _p_y, _p_w/txt_spr_w, _p_h/txt_spr_h, 0, c_white, 1);
 }
 	
 draw_text_ext_color(_p_x, _p_y + (border / 4), _post.title, line_sep, _p_line_w, c_black, c_black, c_black, c_black, 1);
-
-draw_text_ext_color(txt_x, _p_y + (border / 2) + _p_h, "Click to view more...", line_sep / 2, line_width, c_gray, c_gray, c_gray, c_gray, 1);
+draw_text_ext_color(txt_x, _p_y + (border / 2) + _p_h, "Click to view more...", line_sep / 2, _p_line_w, c_gray, c_gray, c_gray, c_gray, 1);
