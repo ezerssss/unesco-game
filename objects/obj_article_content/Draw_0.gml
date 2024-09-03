@@ -7,7 +7,10 @@ draw_sprite_ext(txtb_spr, 0, textbox_x, textbox_y, textbox_width/txtb_spr_w, tex
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 
-
 // title
+draw_set_font(font_h1);
+var _title_height = string_height_ext(title, line_sep, line_width);
+draw_text_ext_color(txt_x, txt_y, title, line_sep * 1.5, line_width, c_black, c_black, c_black, c_black, 1);
+
 draw_set_font(font_body);
-draw_text_ext_color(txt_x, txt_y + 15, content, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
+draw_text_ext_color(txt_x, txt_y + _title_height + line_sep, content, line_sep, line_width, c_black, c_black, c_black, c_black, 1);

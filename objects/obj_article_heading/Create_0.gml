@@ -15,7 +15,7 @@ author = article.author;
 date = article.date;
 content = "Click to read the full story...";
 
-textbox_x = 608;
+textbox_x = 615;
 textbox_y = 215;
 txt_x = textbox_x + border;
 txt_y = textbox_y + border;
