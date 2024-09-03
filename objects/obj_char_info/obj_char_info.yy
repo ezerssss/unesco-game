@@ -32,9 +32,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bg_article_flipped",
-    "path":"sprites/spr_bg_article_flipped/spr_bg_article_flipped.yy",
+    "name":"spr_bg_char_info_vertical",
+    "path":"sprites/spr_bg_char_info_vertical/spr_bg_char_info_vertical.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

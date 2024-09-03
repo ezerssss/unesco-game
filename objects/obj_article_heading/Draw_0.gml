@@ -24,4 +24,5 @@ draw_text_ext_color(txt_x, _with_border_y + _title_height + line_sep / 4, author
 draw_text_ext_color(txt_x, _with_border_y + _title_height + _author_height + line_sep / 4, date, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
 
 draw_set_font(font_h4);
-draw_text_ext_color(txt_x, _with_border_y + _title_height + _author_height + _date_height + line_sep * 0.75, content, line_sep, line_width, c_gray, c_gray, c_gray, c_gray, 1);
+draw_text_ext_color(txt_x, _with_border_y + _title_height + _author_height + _date_height + line_sep * 0.75, content, line_sep, line_width, c_blue, c_blue, c_blue, c_blue, 1);
+draw_text_ext_color(txt_x, _with_border_y + _title_height + _author_height + _date_height + line_sep * 0.95, string_repeat("_", string_length(content)), line_sep, line_width, c_blue, c_blue, c_blue, c_blue, 1);

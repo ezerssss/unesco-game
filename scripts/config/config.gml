@@ -13,14 +13,14 @@ global.starting_characters = [
 				approved: true,
 			},
 			{
-				title: "Lorem Ipsum is simply dummy text of the printing",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
 				title: "How to bypass internet restriction?",
 				approved: true,
 			},{
-				title: "Lorem Ipsum is simply dummy text of the printing",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
@@ -54,7 +54,7 @@ global.starting_characters = [
 				approved: false,
 			},
 			{
-				title: "Lorem Ipsum is simply dummy text of the printing",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
@@ -62,7 +62,7 @@ global.starting_characters = [
 				approved: true,
 			},
 			{
-				title: "Lorem Ipsum is simply dummy text of the printing",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
@@ -96,7 +96,7 @@ global.starting_characters = [
 				approved: true,
 			},
 			{
-				title: "Lorem Ipsum is simply dummy text of the printing",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
@@ -104,7 +104,7 @@ global.starting_characters = [
 				approved: true,
 			},
 			{
-				title: "Lorem Ipsum is simply dummy text of the printing",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
