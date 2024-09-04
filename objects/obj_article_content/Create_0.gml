@@ -1,5 +1,5 @@
 // ****** ARTICLE CONTENT ******
-
+s = 0;
 // textbox parameters
 textbox_width = 1185;
 textbox_height = 625;

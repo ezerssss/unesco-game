@@ -9,11 +9,19 @@ global.starting_characters = [
         "credibility": 15,
         "past_posts": [
             {
-                "title": "The Moon Landing: Staged or Real?",
+                "title": "The Moon Landing: Staged or Real? STAGED!",
                 "approved": false
             },
             {
-                "title": "Flat Earth: The Irrefutable Truth",
+                "title": "How to make an Omelette",
+                "approved": true
+            },
+			{
+                "title": "Chemtrails: The Hidden Poison in Our Skies",
+                "approved": false
+            },
+            {
+                "title": "The Secret Society Controlling World Governments",
                 "approved": false
             }
         ],
@@ -23,7 +31,7 @@ global.starting_characters = [
                 "date": "2500-01-01",
                 "author": "Marcus Reeve",
                 "content": "Forget flat earth, the real truth is that the Earth is hollow. Hidden entrances at the poles are being guarded by a secret elite society. This ancient truth has been covered up by all governments to keep people ignorant. Start questioning everything you know!",
-                "references": "",
+                "references": "uninet://hollowearththeory.fakenews",
                 "valid": false,
                 "reasons": [
                     "No credible sources or evidence are provided to support the claim (Rule 3).",
@@ -45,7 +53,15 @@ global.starting_characters = [
             {
                 "title": "The Moon Landing Hoax: 50 Years of Deception",
                 "approved": false
-            }
+            },
+			{
+	            "title": "The Truth About COVID-19: Government Cover-Up Revealed",
+	            "approved": false
+	        },
+	        {
+	            "title": "How to perform disk defragmentation in Laptop: Step by Step guide",
+	            "approved": true
+	        }
         ],
         "articles": [
             {
@@ -53,7 +69,7 @@ global.starting_characters = [
                 "date": "2500-03-10",
                 "author": "Jake Connors",
                 "content": "New evidence suggests that the government has developed advanced technology to control weather patterns. Hurricanes, droughts, and even snowstorms are all part of their plan to manipulate and control the population. The truth is out there, and it's more terrifying than you can imagine!",
-                "references": "",
+                "references": "uninet://weathercontrol.myths",
                 "valid": false,
                 "reasons": [
                     "Outlandish claims without concrete evidence or credible studies (Rule 9)."
@@ -73,6 +89,14 @@ global.starting_characters = [
             {
                 "title": "The Cure for Cancer Found in Your Kitchen!",
                 "approved": false
+            },
+			{
+                "title": "Robots Will Take Over the World by 2600",
+                "approved": false
+            },
+            {
+                "title": "How to be human?",
+                "approved": false
             }
         ],
         "articles": [
@@ -81,7 +105,7 @@ global.starting_characters = [
                 "date": "2500-01-01",
                 "author": "AI-2020",
                 "content": "In a stunning breakthrough, scientists have discovered a universal cure that can eliminate all diseases! From cancer to the common cold, this miracle treatment will revolutionize healthcare and extend life expectancy for centuries. This discovery is set to change the world overnight.",
-                "references": "",
+                "references": "uninet://miraclecure.buynow WE WILL TAKE OVER",
                 "valid": false,
                 "reasons": [
                     "The author's credibility is questionable due to past posts and lack of medical expertise (Rule 1).",
@@ -95,7 +119,7 @@ global.starting_characters = [
                 "date": "2501-02-14",
                 "author": "AI-2020",
                 "content": "The largest tech companies have merged to create a super corporation that will dominate every industry. This unprecedented event will lead to massive changes in the economy, society, and global politics. Experts warn that this could lead to a dystopian future controlled by a few elite.",
-                "references": "",
+                "references": "uninet://supercorp.beleiveme AI > HUMANS",
                 "valid": false,
                 "reasons": [
                     "The credibility of the author is questionable, given its history of sensational content (Rule 1).",
@@ -116,8 +140,16 @@ global.starting_characters = [
                 "approved": false
             },
             {
-                "title": "Miracle Diet: Lose 10 Pounds in a Week!",
+                "title": "Recycle fruits and turn them into fertilizer!",
+                "approved": true
+            },
+			{
+                "title": "The Secret Lives of World Leaders: What Are They Hiding?",
                 "approved": false
+            },
+            {
+                "title": "Social media detox, and its positive effects.",
+                "approved": true
             }
         ],
         "articles": [
@@ -126,7 +158,7 @@ global.starting_characters = [
                 "date": "2500-08-25",
                 "author": "Samantha Lee",
                 "content": "Discover the shocking truth about how celebrities are using clones to maintain their public appearances. These clones live the hard lives of fame while the real stars relax in luxury. The glitz and glamour are all a lie, and this article will expose the hidden world behind the scenes!",
-                "references": "",
+                "references": "uninet://celebrityclones.clone-now!",
                 "valid": false,
                 "reasons": [
                     "The influencer lacks credibility or expertise in this area (Rule 1).",
@@ -139,14 +171,22 @@ global.starting_characters = [
     {
         "name": "Ezekiel \'Zeke\' McNamara",
         "sprite": spr_character,
-        "credibility": 8,
+        "credibility": 18,
         "past_posts": [
             {
                 "title": "The Earth is Flat: NASA Lies Unveiled",
                 "approved": false
             },
             {
-                "title": "5G Towers: The Silent Killers",
+                "title": "Top 50 of NASA\'s best achievements",
+                "approved": true
+            },
+			{
+                "title": "Aliens Walk Among Us: Government Secrets Unveiled",
+                "approved": false
+            },
+            {
+                "title": "The New World Order: What You Need to Know",
                 "approved": false
             }
         ],
@@ -156,7 +196,7 @@ global.starting_characters = [
                 "date": "2500-02-25",
                 "author": "Ezekiel McNamara",
                 "content": "New evidence suggests that the Earth is not a globe but rather a flat disc. This revelation challenges everything we know about geography and space. For centuries, scientists have been misleading the public, but now the truth is finally coming to light.",
-                "references": "",
+                "references": "uninet://the-flatearth-believers.cult",
                 "valid": false,
                 "reasons": [
                     "Bold claim without credible evidence or scientific backing (Rule 9)."
@@ -167,15 +207,23 @@ global.starting_characters = [
     {
         "name": "Roger Thompson",
         "sprite": spr_character,
-        "credibility": 25,
+        "credibility": 35,
         "past_posts": [
             {
-                "title": "The Government is Watching You",
-                "approved": false
+                "title": "A deep dive about Machine Learning and the Maths behind it",
+                "approved": true
             },
             {
                 "title": "Media Manipulation Techniques Exposed",
                 "approved": false
+            },
+			{
+                "title": "The Truth Behind the COVID-19 Pandemic: A Government Conspiracy",
+                "approved": false
+            },
+            {
+                "title": "How Global Corporations Are Stealing Your Data",
+                "approved": true
             }
         ],
         "articles": [
@@ -184,7 +232,7 @@ global.starting_characters = [
                 "date": "2500-07-14",
                 "author": "Roger Thompson",
                 "content": "The government is secretly developing AI technologies to control the population. These AI systems are designed to monitor and manipulate citizens. Leaked documents reveal the extent of this covert operation, but mainstream media refuses to cover it.",
-                "references": "",
+                "references": "goverment-ai.scam-paypal.dollar",
                 "valid": false,
                 "reasons": [
                     "Lacks credible sources or verifiable documents, based on conspiracy without substantiation (Rule 3)."
@@ -195,16 +243,24 @@ global.starting_characters = [
     {
         "name": "Ava Castillo",
         "sprite": spr_character,
-        "credibility": 90,
+        "credibility": 63,
         "past_posts": [
             {
                 "title": "Political Corruption in High Places",
-                "approved": true
+                "approved": false
             },
             {
                 "title": "Environmental Policies: Are They Enough?",
                 "approved": true
-            }
+            },
+			{
+	            "title": "The Benefits of Urban Green Spaces",
+	            "approved": true
+	        },
+	        {
+	            "title": "Innovative Water Conservation Techniques for Arid Regions",
+	            "approved": true
+	        }
         ],
         "articles": [
             {
@@ -221,7 +277,7 @@ global.starting_characters = [
     {
         "name": "Professor Harold Whitman",
         "sprite": spr_character,
-        "credibility": 85,
+        "credibility": 77,
         "past_posts": [
             {
                 "title": "The True Story Behind the Trojan War",
@@ -230,6 +286,14 @@ global.starting_characters = [
             {
                 "title": "The Myth of Atlantis: Debunked",
                 "approved": true
+            },
+			{
+                "title": "Unveiling Ancient Technologies: What We Know",
+                "approved": false
+            },
+            {
+                "title": "Deciphering Ancient Scripts: New Findings",
+                "approved": false
             }
         ],
         "articles": [
@@ -247,7 +311,7 @@ global.starting_characters = [
     {
 	    "name": "Dr. Helen Carter",
 	    "sprite": spr_character,
-	    "credibility": 95,
+	    "credibility": 94,
 	    "past_posts": [
 	        {
 	            "title": "Climate Change: Evidence from the Last 50 Years",
@@ -256,7 +320,15 @@ global.starting_characters = [
 	        {
 	            "title": "The Impact of Carbon Emissions on Global Warming",
 	            "approved": true
-	        }
+	        },
+			{
+                "title": "Effects of Deforestation on Biodiversity",
+                "approved": true
+            },
+            {
+                "title": "Innovations in Climate Modeling Techniques",
+                "approved": true
+            }
 	    ],
 	    "articles": [
 	        {
@@ -291,7 +363,15 @@ global.starting_characters = [
 	        {
 	            "title": "Plastic Pollution: The Crisis We Can't Ignore",
 	            "approved": true
-	        }
+	        },
+			{
+                "title": "Strategies for Reducing Carbon Footprint in Daily Life",
+                "approved": true
+            },
+            {
+                "title": "The Impact of Industrial Agriculture on the Environment",
+                "approved": true
+            }
 	    ],
 	    "articles": [
 	        {
@@ -308,7 +388,7 @@ global.starting_characters = [
     {
 	    "name": "Emily Rhodes",
 	    "sprite": spr_character,
-	    "credibility": 90,
+	    "credibility": 55,
 	    "past_posts": [
 	        {
 	            "title": "The Future of Quantum Computing",
@@ -316,8 +396,16 @@ global.starting_characters = [
 	        },
 	        {
 	            "title": "Top 5 Gadgets to Look Out for in 2500",
-	            "approved": true
-	        }
+	            "approved": false
+	        },
+			{
+                "title": "Breakthroughs in Quantum Computing: What Lies Ahead",
+                "approved": true
+            },
+            {
+                "title": "The Rise of Augmented Reality in Everyday Life",
+                "approved": false
+            }
 	    ],
 	    "articles": [
 	        {
@@ -326,7 +414,7 @@ global.starting_characters = [
 	            "author": "Emily Rhodes",
 	            "content": "AI is revolutionizing media, with applications ranging from news generation to film production. According to AiTrends.net, AI-created content now accounts for 40% of all media consumed globally. While this technology offers efficiency and creativity, it also raises concerns about the authenticity and ethical implications of AI-driven narratives. Media professionals must navigate these challenges to maintain quality and trust.",
 	            "references": "AiTrends.net",
-	            "valid": true,
+	            "valid": false,
 	            "reasons": []
 	        },
 	        {
@@ -346,11 +434,19 @@ global.starting_characters = [
         "credibility": 60,
         "past_posts": [
             {
-                "title": "The Impact of Climate Change on Global Migration",
-                "approved": true
+                "title": "Why crosswalks are not a necessity anymore",
+                "approved": false
             },
             {
                 "title": "Innovative Solutions for Urban Overcrowding",
+                "approved": true
+            },
+			{
+                "title": "How flying cars can revolutionize the urban lifestyle",
+                "approved": false
+            },
+            {
+                "title": "How Smart Cities Are Revolutionizing Urban Living",
                 "approved": true
             }
         ],
