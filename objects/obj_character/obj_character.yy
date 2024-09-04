@@ -36,5 +36,5 @@
     "path":"sprites/spr_character/spr_character.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

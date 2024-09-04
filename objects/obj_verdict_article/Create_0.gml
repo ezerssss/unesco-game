@@ -1,5 +1,5 @@
 // ****** ARTICLE VERDICT ******
-s=0;
+
 // textbox parameters
 textbox_width = 672;
 textbox_height = 360;
