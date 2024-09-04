@@ -20,7 +20,7 @@ var _p_w = textbox_width;
 var _p_h;
 var _p_line_w = line_width;
 
-for (var _p = 1; _p < past_posts_len; _p++) {
+for (var _p = 0; _p < past_posts_len; _p++) {
 	_post = past_posts[_p];
 	
 	draw_set_font(font_body);
