@@ -1,7 +1,7 @@
 // Define positions
 var _column_left_x = 250;   
 var _column_right_x = 750; 
-var _start_y = 150;  
+var _start_y = 135;  
 var _line_height = 100;
 
 positions = [
