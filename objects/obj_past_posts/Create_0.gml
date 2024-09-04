@@ -24,5 +24,5 @@ textbox_y = 64;
 //remark_spr_h = sprite_get_height(remark_spr_not_approved);
 
 txt_x = textbox_x + border;
-txt_y = textbox_y + border + 72;
+txt_y = textbox_y + border + 66;
 

@@ -15,27 +15,30 @@ draw_text_ext_color(txt_x, txt_y, "Past Posts", line_sep, line_width, c_black, c
 var _post;
 var _title_height = 0;
 var _p_x = txt_x;
-var _p_y = txt_y + _head_height;
+var _p_y = txt_y + _head_height + 20;
 var _p_w = textbox_width;
 var _p_h;
 var _p_line_w = line_width;
 
-draw_set_font(font_body);
 for (var _p = 1; _p < past_posts_len; _p++) {
 	_post = past_posts[_p];
 	
+	draw_set_font(font_body);
 	draw_text_ext_color(_p_x, _p_y, _post.title, line_sep, _p_line_w, c_black, c_black, c_black, c_black, 1);
 	_title_height = string_height_ext(_post.title, line_sep, _p_line_w);
 	
 	draw_set_font(font_caption);
-	_p_y +=  _title_height + line_sep * 0.25;
+	_p_y +=  _title_height + line_sep * 0.15;
+	
+	draw_text_ext_color(_p_x, _p_y, "Verdict: ", line_sep, _p_line_w, c_gray, c_gray, c_gray, c_gray, 1);
+	var _verdict_p_x = _p_x + string_width_ext("Verdict: ", line_sep, _p_line_w) + 5;
 	
 	if (_post.approved) {
-		draw_text_ext_color(_p_x, _p_y, "Verified", line_sep, _p_line_w, c_green, c_green, c_green, c_green, 1);
+		draw_text_ext_color(_verdict_p_x, _p_y, "Valid post", line_sep, _p_line_w, c_green, c_green, c_green, c_green, 1);
 	} else {
-		draw_text_ext_color(_p_x, _p_y, "Fake News", line_sep, _p_line_w, c_red, c_red, c_red, c_red, 1);
+		draw_text_ext_color(_verdict_p_x, _p_y, "Invalid post", line_sep, _p_line_w, c_red, c_red, c_red, c_red, 1);
 	}
 	
-	_p_y += line_sep;
+	_p_y += line_sep + 15;
 }
 

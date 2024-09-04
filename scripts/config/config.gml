@@ -33,7 +33,7 @@ global.starting_characters = [
 				title: "Bypassing the Internet Barrier Using a Potato Gun",
 				date: "1929-10-11",
 				author: "Mister p0tat0 Internet",
-				content: "Recent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				content: "\tRecent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
 				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [

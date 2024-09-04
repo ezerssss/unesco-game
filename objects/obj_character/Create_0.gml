@@ -1,4 +1,3 @@
-var _character = get_current_character();
-var _article = _character.article;
+character = get_current_character();
 
-sprite_index = _character.sprite;
+sprite_index = character.sprite;

@@ -19,11 +19,8 @@ msg = "Click to view more...";
 textbox_x = 1470;
 textbox_y = 218;
 txt_x = textbox_x + border;
-txt_y = textbox_y + border + 25;
+txt_y = textbox_y + border + 32;
 txtb_spr_w = sprite_get_width(txtb_spr);
 txtb_spr_h = sprite_get_height(txtb_spr);
-
-txt_spr_w = sprite_get_width(spr_bg_text);
-txt_spr_h = sprite_get_height(spr_bg_text);
 
 
