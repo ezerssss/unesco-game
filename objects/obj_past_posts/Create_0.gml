@@ -14,13 +14,14 @@ txtb_spr_h = sprite_get_height(txtb_spr);
 past_posts = get_current_character().past_posts;
 past_posts_len = array_length(past_posts);
 
+
 textbox_x = 95;
 textbox_y = 64;
 
-remark_spr_not_approved = spr_handle_not_approved;
-remark_spr_approved = spr_handle_approved
-remark_spr_w = sprite_get_width(remark_spr_not_approved);
-remark_spr_h = sprite_get_height(remark_spr_not_approved);
+//remark_spr_not_approved = spr_handle_not_approved;
+//remark_spr_approved = spr_handle_approved
+//remark_spr_w = sprite_get_width(remark_spr_not_approved);
+//remark_spr_h = sprite_get_height(remark_spr_not_approved);
 
 txt_x = textbox_x + border;
 txt_y = textbox_y + border + 72;
