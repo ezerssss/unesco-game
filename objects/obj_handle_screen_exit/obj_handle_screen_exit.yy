@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_article_heading",
+  "%Name":"obj_handle_screen_exit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_article_heading",
+  "name":"obj_handle_screen_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"article",
-    "path":"folders/Objects/article.yy",
+    "name":"handles",
+    "path":"folders/Objects/handles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bg_article",
-    "path":"sprites/spr_bg_article/spr_bg_article.yy",
+    "name":"spr_handle_exit",
+    "path":"sprites/spr_handle_exit/spr_handle_exit.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

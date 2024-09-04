@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_article_heading",
+  "%Name":"obj_verdict_article",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,11 +8,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_article_heading",
+  "name":"obj_verdict_article",
   "overriddenProperties":[],
   "parent":{
-    "name":"article",
-    "path":"folders/Objects/article.yy",
+    "name":"verdict",
+    "path":"folders/Objects/verdict.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bg_article",
-    "path":"sprites/spr_bg_article/spr_bg_article.yy",
+    "name":"spr_bg_verdict_article",
+    "path":"sprites/spr_bg_verdict_article/spr_bg_verdict_article.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -37,5 +37,5 @@
     "path":"sprites/spr_bg_char_info_vertical/spr_bg_char_info_vertical.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

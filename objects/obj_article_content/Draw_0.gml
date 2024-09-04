@@ -16,5 +16,5 @@ draw_set_font(font_body);
 var _content_height = string_height_ext(content, line_sep, line_width);
 draw_text_ext_color(txt_x, txt_y + _title_height + line_sep * 0.5, content, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
 
-draw_set_font(font_caption);
+draw_set_font(font_body_small);
 draw_text_ext_color(txt_x, txt_y + _title_height + _content_height + line_sep * 2, references, line_sep / 2, line_width, c_gray, c_gray, c_gray, c_gray, 1);

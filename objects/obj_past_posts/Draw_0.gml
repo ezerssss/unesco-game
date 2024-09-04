@@ -27,7 +27,7 @@ for (var _p = 0; _p < past_posts_len; _p++) {
 	draw_text_ext_color(_p_x, _p_y, _post.title, line_sep, _p_line_w, c_black, c_black, c_black, c_black, 1);
 	_title_height = string_height_ext(_post.title, line_sep, _p_line_w);
 	
-	draw_set_font(font_caption);
+	draw_set_font(font_body_small);
 	_p_y +=  _title_height + line_sep * 0.15;
 	
 	draw_text_ext_color(_p_x, _p_y, "Verdict: ", line_sep, _p_line_w, c_gray, c_gray, c_gray, c_gray, 1);
