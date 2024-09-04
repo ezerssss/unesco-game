@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hdl_screen_exit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_verdict_warning",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hdl_screen_exit",
+  "name":"obj_verdict_warning",
   "overriddenProperties":[],
   "parent":{
-    "name":"handles",
-    "path":"folders/Objects/handles.yy",
+    "name":"verdict",
+    "path":"folders/Objects/verdict.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_handle_exit",
-    "path":"sprites/spr_handle_exit/spr_handle_exit.yy",
+    "name":"spr_bg_verdict_warning",
+    "path":"sprites/spr_bg_verdict_warning/spr_bg_verdict_warning.yy",
   },
   "spriteMaskId":null,
   "visible":true,

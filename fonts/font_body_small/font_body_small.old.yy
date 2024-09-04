@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_caption",
+  "%Name":"font_body_small",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":16,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":22,
   "maintainGms1Font":false,
-  "name":"font_caption",
+  "name":"font_body_small",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

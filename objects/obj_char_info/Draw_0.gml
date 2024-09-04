@@ -15,7 +15,7 @@ draw_text_ext_color(txt_x, _p_y, "Name:", line_sep, line_width, c_gray, c_gray, 
 _p_y += string_height_ext("Name:", line_sep, line_width)
 
 
-draw_set_font(font_caption);
+draw_set_font(font_body_small);
 draw_text_ext_color(txt_x, _p_y, name, line_sep, line_width, c_black, c_black, c_black, c_black, 1);
 _p_y += string_height_ext(name, line_sep, line_width) + 10;
 
@@ -24,7 +24,7 @@ draw_set_font(font_h3);
 draw_text_ext_color(txt_x, _p_y, "Credibility:", line_sep, line_width, c_gray, c_gray, c_gray, c_gray, 1);
 _p_y += string_height_ext("Credibility:", line_sep, line_width);
 
-draw_set_font(font_caption);
+draw_set_font(font_body_small);
 draw_text_ext_color(txt_x, _p_y, credibility, line_sep, line_width,  c_black, c_black, c_black, c_black, 1);
 _p_y += string_height_ext(credibility, line_sep, line_width) + 10;
 
