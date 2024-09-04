@@ -1,88 +1,40 @@
 #macro NUM_DAYS 3
-#macro NUM_CHARACTERS 10
-#macro NUM_ARTICLES 15
+#macro NUM_CHARACTERS 3
+#macro NUM_ARTICLES 3
 
 global.starting_characters = [
 	{
 		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
+		sprite: spr_character,
 		credibility: 19,
 		past_posts: [
 			{
-				title: "The world is ending!",
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
 				title: "How to bypass internet restriction?",
+				approved: true,
+			},{
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
-			}
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
 		],
 		articles: [
 			{
-				title: "Bypassing the internet barrier using a potato gun",
+				title: "Bypassing the Internet Barrier Using a Potato Gun",
 				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],	
-			},
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],	
-			},
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],	
-			},
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],	
-			},
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],	
-			},
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+				author: "Mister p0tat0 Internet",
+				content: "\tRecent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [
 					"No author",
@@ -93,8 +45,8 @@ global.starting_characters = [
 		],
 	},
 	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
+		name: "Dr. Elara Sagan",
+		sprite: spr_character,
 		credibility: 19,
 		past_posts: [
 			{
@@ -102,16 +54,29 @@ global.starting_characters = [
 				approved: false,
 			},
 			{
-				title: "How to bypass internet restriction?",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
+				approved: false,
+			},
+			{
+				title: "How to bypass internet restriction?",
+				approved: true,
 			},
 		],
 		articles: [
 			{
-				title: "Bypassing the internet barrier using a potato gun",
+				title: "Black Holes: The Mysteries Unveiled",
 				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+				author: "Mister p0tat0 Internet",
+				content: "Recent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [
 					"No author",
@@ -122,228 +87,38 @@ global.starting_characters = [
 		],
 	},
 	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
+		name: "Ava Castillo",
+		sprite: spr_character,
 		credibility: 19,
 		past_posts: [
 			{
 				title: "The world is ending!",
+				approved: true,
+			},
+			{
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
 				title: "How to bypass internet restriction?",
-				approved: false,
+				approved: true,
 			},
-		],
-		articles: [
 			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
+				title: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
 				approved: false,
 			},
 			{
 				title: "How to bypass internet restriction?",
-				approved: false,
+				approved: true,
 			},
 		],
 		articles: [
 			{
-				title: "Bypassing the internet barrier using a potato gun",
+				title: "Uncovering Corporate Corruption",
 				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
-		],
-		articles: [
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
-		],
-		articles: [
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
-		],
-		articles: [
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
-		],
-		articles: [
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
-		],
-		articles: [
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-				valid: false,
-				reasons: [
-					"No author",
-					"No sources mentioned",
-					"Exaggerated Headline and content designed to provoke fear and fabricate facts"
-				],
-			},
-		],
-	},
-	{
-		name: "Mister Potato Internet",
-		sprite: spr_sample_character,
-		credibility: 19,
-		past_posts: [
-			{
-				title: "The world is ending!",
-				approved: false,
-			},
-			{
-				title: "How to bypass internet restriction?",
-				approved: false,
-			},
-		],
-		articles: [
-			{
-				title: "Bypassing the internet barrier using a potato gun",
-				date: "1929-10-11",
-				author: "",
-				content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+				author: "Mister p0tat0 Internet",
+				content: "Recent studies, including those published by Johnson, K., & Lee, P. (2049), confirm that solar flares have minimal impact on long-term climate change, though they can disrupt communications and weather patterns temporarily. The data overwhelmingly shows that human activities, particularly carbon emissions, are the primary drivers of climate change. Understanding these dynamics is crucial for developing effective climate policies.",
+				references: "Johnson, K., & Lee, P. (2023). Climate change impacts on ecosystems. Environmental Journal, 45(3), 234-250. doi:10.1016/j.climat.2023.03.014",
 				valid: false,
 				reasons: [
 					"No author",

@@ -1,0 +1,1 @@
+character = get_current_character();

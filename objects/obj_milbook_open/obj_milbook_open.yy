@@ -8,8 +8,8 @@
   "name":"obj_milbook_open",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"book",
+    "path":"folders/Objects/book.yy",
   },
   "parentObjectId":null,
   "persistent":false,

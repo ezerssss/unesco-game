@@ -34,7 +34,8 @@ function get_current_character() {
 // Returns {name, sprite, credibility, past_posts, article: {title, date, author, content, valid, reasons, viewed}}
 function get_new_character() {
 	if (ds_queue_empty(global.game_state.article_queue)) {
-		throw("Article queue is empty! You are probably calling this function too many times, or the amount of articles are not enough.");	
+		// throw("Article queue is empty! You are probably calling this function too many times, or the amount of articles are not enough.");	
+		return pointer_null;
 	}
 	
 	var _q_el = ds_queue_dequeue(global.game_state.article_queue);
