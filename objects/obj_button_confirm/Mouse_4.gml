@@ -11,7 +11,7 @@ switch(_status){
 		if (file_exists("game_state.json")){
 			delete_game_save();
 			}
-		room_goto(room_intro);
+		room_goto(room_prologue);
 		break;
 	case 2:
 		save_game_state();

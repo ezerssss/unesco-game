@@ -20,13 +20,14 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"bbdd97f0-99a4-4790-b83d-c4616855729a","blendMode":0,"displayName":"default","isLocked":false,"name":"bbdd97f0-99a4-4790-b83d-c4616855729a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"640c211f-b40d-4c82-a4ac-1628076dd991","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"640c211f-b40d-4c82-a4ac-1628076dd991","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_button",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"verdict buttons",
+    "path":"folders/Sprites/verdict buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
