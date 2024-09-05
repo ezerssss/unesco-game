@@ -18,4 +18,3 @@ if(_correct_ans){
 
 get_new_character();
 // change sprites
-

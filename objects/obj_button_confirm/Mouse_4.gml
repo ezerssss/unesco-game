@@ -5,7 +5,8 @@ switch(_status){
 		game_end();
 		break;
 	case 0:
-		load_game_save();	
+		load_game_save();
+		room_goto(room_main);
 		break;
 	case 1:
 		if (file_exists("game_state.json")){
