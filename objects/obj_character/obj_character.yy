@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_character",
-    "path":"sprites/spr_character/spr_character.yy",
+    "name":"spr_char_ava_castillo",
+    "path":"sprites/spr_char_ava_castillo/spr_char_ava_castillo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
