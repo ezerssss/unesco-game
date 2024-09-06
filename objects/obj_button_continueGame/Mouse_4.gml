@@ -1,6 +1,8 @@
 event_inherited();
 
-
+if(!has_save()){
+	global.status = 3
+}
 global.status = 0;
 var _exists = false;
 _exists = instance_exists(obj_popup_confirm);

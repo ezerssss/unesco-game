@@ -10,7 +10,7 @@ text[7] = "Goodluck! The fate of the internet rests in your hands.";
 
 text_current = 0;
 text_last = 7;
-text_width = 600;
+text_width = 500;
 text_x = room_width/2;
 text_y = room_height/2;
 

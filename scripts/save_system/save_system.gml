@@ -21,6 +21,7 @@ function save_game_state() {
 }
 
 function load_game_save() {
+	
 	var _game_state = load_json("game_state.json");
 		
 	if (_game_state == undefined) {
@@ -47,8 +48,27 @@ function delete_game_save() {
 	}
 	
 	file_delete("game_state.json");
+	global.game_state = undefined;
+	randomize();
 }
 
 function has_save() {
 	return file_exists("game_state.json");	
 }
+function new_game_save(){
+	var _new_article_queue = generate_article_queue();
+	var _q_el = ds_queue_dequeue(_new_article_queue);
+	var _current_character = get_character(_q_el.character_index, _q_el.article_index, global.starting_characters);
+	
+	// Default new game state
+	global.game_state = {
+		day: 1,
+		characters: global.starting_characters,
+		article_queue: _new_article_queue,
+		current_character: _current_character,
+		articles_viewed: 1,
+		correct_verdicts: 0,
+		wrong_verdicts: 0,
+	};
+}
+

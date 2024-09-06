@@ -12,9 +12,12 @@ if(_correct_ans){
 	//show wrong verdict
 	show_debug_message("False");
 	layer_sequence_create("warnings", room_width / 2, room_height / 2,seq_verdict_wrong);
-	instance_deactivate_layer("screens");
 	
 }
 
+if(get_num_articles_viewed() % 5 == 0 ){
+	increment_day();
+
+}
 get_new_character();
 // change sprites
