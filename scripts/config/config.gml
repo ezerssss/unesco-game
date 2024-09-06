@@ -414,7 +414,7 @@ global.starting_characters = [
 	            "author": "Emily Rhodes",
 	            "content": "AI is revolutionizing media, with applications ranging from news generation to film production. According to AiTrends.net, AI-created content now accounts for 40% of all media consumed globally. While this technology offers efficiency and creativity, it also raises concerns about the authenticity and ethical implications of AI-driven narratives. Media professionals must navigate these challenges to maintain quality and trust.",
 	            "references": "AiTrends.net",
-	            "valid": false,
+	            "valid": true,
 	            "reasons": []
 	        },
 	        {

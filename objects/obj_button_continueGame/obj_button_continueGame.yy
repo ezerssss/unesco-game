@@ -6,17 +6,12 @@
   ],
   "managed":true,
   "name":"obj_button_continueGame",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"btn_text","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Continue",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Buttons.yy",
   },
-  "parentObjectId":{
-    "name":"obj_btn_parent",
-    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button",
-    "path":"sprites/spr_button/spr_button.yy",
+    "name":"spr_btn_continue_game",
+    "path":"sprites/spr_btn_continue_game/spr_btn_continue_game.yy",
   },
   "spriteMaskId":null,
   "visible":true,
