@@ -24,6 +24,4 @@ switch(global.status){
 		
 
 }
-text_width = 200;
-spr_title[text_current] = string_wrap(spr_title[text_current], text_width);
 

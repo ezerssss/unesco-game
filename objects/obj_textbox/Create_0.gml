@@ -11,8 +11,8 @@ text[7] = "Goodluck! The fate of the internet rests in your hands.";
 text_current = 0;
 text_last = 7;
 text_width = 500;
-text_x = room_width/2;
-text_y = room_height/2;
+text_x = room_width / 2; 
+text_y = room_height / 2;
 
 text[0] = string_wrap(text[0],text_width);
 text[1] = string_wrap(text[1],text_width);

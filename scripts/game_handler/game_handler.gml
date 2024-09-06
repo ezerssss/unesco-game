@@ -22,6 +22,8 @@ function get_current_character() {
 function get_new_character() {
 	if (ds_queue_empty(global.game_state.article_queue)) {
 		// throw("Article queue is empty! You are probably calling this function too many times, or the amount of articles are not enough.");	
+		global.game_state.day = 4;
+		global.game_state.articles_viewed = 16;
 		return pointer_null;
 	}
 	

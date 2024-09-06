@@ -1,4 +1,3 @@
-event_inherited();
 var _exists= false;
 _exists = instance_exists(obj_popup_confirm);
 	show_debug_message(string("debug message"));
