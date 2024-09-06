@@ -3,25 +3,9 @@
 // Simulate viewing an article every step (for testing)
 
 
-if (!variable_global_exists("time_elapsed")) {
-    global.time_elapsed = 0;
-}
-
-global.time_elapsed += 1;
-
-
-// for simulation
-// every 1 secoond, an article is viewed
-if (global.time_elapsed % 60 == 0) {
-	show_debug_message(global.game_state.articles_viewed);
-
-	
-	if (get_num_articles_viewed() % 5 == 0 ) {
-	    increment_day();
-	}
-	
-	get_new_character();
-}
+//if (get_num_articles_viewed() % 5 == 0 ) {
+ 
+//}
 
 switch(get_day()){
 	case 1:
@@ -29,7 +13,7 @@ switch(get_day()){
 		break;
 	case 2:
 		// go to day2_room -> day 2 events
-		break
+		break;
 		
 	case 4:
 		// go to day3_room -> last day events 
@@ -40,13 +24,10 @@ switch(get_day()){
 			// bad ending cutscene
 			
 		// game ends
-		game_end()
 		break;
 
 
 }
-
-
 
 
 

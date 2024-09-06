@@ -6,20 +6,7 @@ global.game_state = load_game_save();
 
 // Create new default game state
 if (global.game_state == undefined) {
-	var _new_article_queue = generate_article_queue();
-	var _q_el = ds_queue_dequeue(_new_article_queue);
-	var _current_character = get_character(_q_el.character_index, _q_el.article_index, global.starting_characters);
-	
-	// Default new game state
-	global.game_state = {
-		day: 1,
-		characters: starting_characters,
-		article_queue: _new_article_queue,
-		current_character: _current_character,
-		articles_viewed: 1,
-		correct_verdicts: 0,
-		wrong_verdicts: 0,
-	};
+	new_game_save();
 } 
 
 function get_current_character() {
