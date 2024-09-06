@@ -5,7 +5,7 @@
 global.starting_characters = [
     {
         "name": "Marcus Reeve",
-        "sprite": spr_character,
+        "sprite": spr_char_marcus_reeve,
         "credibility": 15,
         "past_posts": [
             {
@@ -43,7 +43,7 @@ global.starting_characters = [
     },
     {
         "name": "Jake \'Conspiracy\' Connors",
-        "sprite": spr_character,
+        "sprite": spr_char_jake_connors,
         "credibility": 10,
         "past_posts": [
             {
@@ -79,7 +79,7 @@ global.starting_characters = [
     },
     {
         "name": "AI-2020",
-        "sprite": spr_character,
+        "sprite": spr_char_ai_2020,
         "credibility": 10005,
         "past_posts": [
             {
@@ -132,7 +132,7 @@ global.starting_characters = [
     },
     {
         "name": "Samantha \'Sam\' Lee",
-        "sprite": spr_character,
+        "sprite": spr_char_samantha_lee,
         "credibility": 20,
         "past_posts": [
             {
@@ -170,7 +170,7 @@ global.starting_characters = [
     },
     {
         "name": "Ezekiel \'Zeke\' McNamara",
-        "sprite": spr_character,
+        "sprite": spr_char_ezekiel_mcnamara,
         "credibility": 18,
         "past_posts": [
             {
@@ -206,7 +206,7 @@ global.starting_characters = [
     },
     {
         "name": "Roger Thompson",
-        "sprite": spr_character,
+        "sprite": spr_char_roger_thompson,
         "credibility": 35,
         "past_posts": [
             {
@@ -242,7 +242,7 @@ global.starting_characters = [
     },
     {
         "name": "Ava Castillo",
-        "sprite": spr_character,
+        "sprite": spr_char_ava_castillo,
         "credibility": 63,
         "past_posts": [
             {
@@ -276,7 +276,7 @@ global.starting_characters = [
     },
     {
         "name": "Professor Harold Whitman",
-        "sprite": spr_character,
+        "sprite": spr_char_harold_whitman,
         "credibility": 77,
         "past_posts": [
             {
@@ -310,7 +310,7 @@ global.starting_characters = [
     },
     {
 	    "name": "Dr. Helen Carter",
-	    "sprite": spr_character,
+	    "sprite": spr_char_dr_helen,
 	    "credibility": 94,
 	    "past_posts": [
 	        {
@@ -353,7 +353,7 @@ global.starting_characters = [
 	},
 	{
 	    "name": "Martha Greene",
-	    "sprite": spr_character,
+	    "sprite": spr_char_martha_greene,
 	    "credibility": 95,
 	    "past_posts": [
 	        {
@@ -387,7 +387,7 @@ global.starting_characters = [
 	},
     {
 	    "name": "Emily Rhodes",
-	    "sprite": spr_character,
+	    "sprite": spr_char_emily_rhodes,
 	    "credibility": 55,
 	    "past_posts": [
 	        {
@@ -430,7 +430,7 @@ global.starting_characters = [
 	},
     {
         "name": "Naomi Tanaka",
-        "sprite": spr_character,
+        "sprite": spr_char_naomi_tanaka,
         "credibility": 60,
         "past_posts": [
             {
