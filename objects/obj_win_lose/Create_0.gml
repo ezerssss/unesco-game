@@ -1,5 +1,6 @@
 
 var _score = global.game_state.correct_verdicts;
+timer = 0;
 
 if (_score >= 10) {
 

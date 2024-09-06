@@ -70,5 +70,7 @@ function new_game_save(){
 		correct_verdicts: 0,
 		wrong_verdicts: 0,
 	};
+	
+	save_game_state();
 }
 

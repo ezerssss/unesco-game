@@ -1,4 +1,4 @@
-
+new_game_save();
 global.status = 1;
 var _exists = false;
 _exists = instance_exists(obj_popup_confirm);
