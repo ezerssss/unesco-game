@@ -20,7 +20,6 @@ txt_y = textbox_y + border;
 txtb_spr_w = sprite_get_width(spr_bg_article);
 txtb_spr_h = sprite_get_height(spr_bg_article);
 
-
 _timer = 300;
 
 instance_deactivate_layer("screens");

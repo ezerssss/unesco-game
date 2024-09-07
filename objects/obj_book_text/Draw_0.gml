@@ -1,7 +1,7 @@
 draw_set_font(font_ancient);
 draw_set_color(c_black);
 
-var _day = 1;
+var _day = get_day();
 
 var _display_rules;
 
@@ -32,6 +32,6 @@ for (var _i = 0; _i < 10; _i++) {
 	
     if (_i < 10 && _found) {
         var _pos = positions[_i];
-        draw_text_ext(_pos[0], _pos[1], rules[_i], 20, 400);
+        draw_text_ext(_pos[0], _pos[1], rules[_i], 30, 525);
     }
 }
