@@ -6,7 +6,7 @@ if (_score >= 10){
 
 	text[1] = "By using your knowledge in Media and Information Literacy,";
 	text[2] = "You have saved the world from misinformation and improper use of artificial intelligence.";
-	text[3] = "The WEB is lucky to have you! See you again";
+	text[3] = "The UniNet is lucky to have you! See you again";
 	text[4] = "...soon";
 } else {
 	text[0] = "The world is devastated!!!";
