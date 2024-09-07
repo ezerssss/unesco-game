@@ -126,6 +126,7 @@
     {"id":{"name":"spr_bg_verdict_warning","path":"sprites/spr_bg_verdict_warning/spr_bg_verdict_warning.yy",},},
     {"id":{"name":"spr_bg_verdict_x","path":"sprites/spr_bg_verdict_x/spr_bg_verdict_x.yy",},},
     {"id":{"name":"spr_bg_win","path":"sprites/spr_bg_win/spr_bg_win.yy",},},
+    {"id":{"name":"spr_book_close_highlight","path":"sprites/spr_book_close_highlight/spr_book_close_highlight.yy",},},
     {"id":{"name":"spr_book_close","path":"sprites/spr_book_close/spr_book_close.yy",},},
     {"id":{"name":"spr_book_end","path":"sprites/spr_book_end/spr_book_end.yy",},},
     {"id":{"name":"spr_book_open","path":"sprites/spr_book_open/spr_book_open.yy",},},
