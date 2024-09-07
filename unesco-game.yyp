@@ -47,7 +47,6 @@
   },
   "name":"unesco-game",
   "resources":[
-    {"id":{"name":"fnt_large","path":"fonts/fnt_large/fnt_large.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_temp","path":"fonts/fnt_temp/fnt_temp.yy",},},
     {"id":{"name":"font_ancient","path":"fonts/font_ancient/font_ancient.yy",},},
@@ -58,6 +57,7 @@
     {"id":{"name":"font_h3","path":"fonts/font_h3/font_h3.yy",},},
     {"id":{"name":"font_h4","path":"fonts/font_h4/font_h4.yy",},},
     {"id":{"name":"font_h5","path":"fonts/font_h5/font_h5.yy",},},
+    {"id":{"name":"font_typewriter","path":"fonts/font_typewriter/font_typewriter.yy",},},
     {"id":{"name":"obj_article_content","path":"objects/obj_article_content/obj_article_content.yy",},},
     {"id":{"name":"obj_article_heading","path":"objects/obj_article_heading/obj_article_heading.yy",},},
     {"id":{"name":"obj_book_text","path":"objects/obj_book_text/obj_book_text.yy",},},

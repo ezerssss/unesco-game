@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_large",
+  "%Name":"font_typewriter",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":61,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":80,
   "maintainGms1Font":false,
-  "name":"fnt_large",
+  "name":"font_typewriter",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
