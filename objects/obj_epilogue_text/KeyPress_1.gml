@@ -6,7 +6,6 @@ if(char_current <_len){
 }else{
 	text_current +=1;
 	if(text_current > text_last){
-		delete_game_save();
 		audio_stop_all();
 		room_goto(room_mainmenu);
 	}else{
