@@ -21,6 +21,6 @@ txtb_spr_w = sprite_get_width(spr_bg_article);
 txtb_spr_h = sprite_get_height(spr_bg_article);
 
 
-_timer = 120;
+_timer = 130;
 
 instance_deactivate_layer("screens");
