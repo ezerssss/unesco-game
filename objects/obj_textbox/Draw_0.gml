@@ -8,7 +8,7 @@ var _len = string_length(text[text_current]);
 if(char_current < _len){
 	char_current+= char_speed;
 } else {
-	audio_stop_sound(snd_cool_code);	
+	audio_stop_sound(snd_typewriter);	
 }
 var _str = string_copy(text[text_current], 1, char_current);
 draw_text_ext(text_x, text_y,  _str, 70, 1500);

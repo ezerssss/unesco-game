@@ -1,3 +1,4 @@
+audio_stop_all();
 text[0] = "DAY " +string(get_day());
 text_current = 0;
 text_width = 500;

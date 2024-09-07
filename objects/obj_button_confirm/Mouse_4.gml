@@ -1,3 +1,4 @@
+audio_play_sound(snd_menu_click, 1, false);
 var _status = global.status;
 switch(_status){
 	case -1:

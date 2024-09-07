@@ -1,4 +1,3 @@
-
 var _articles_viewed = get_num_articles_viewed();
 
 if (_articles_viewed == 15) {
@@ -8,6 +7,9 @@ if (_articles_viewed == 15) {
 if(obj_day_handler._click_timer > 0 or obj_day_handler._day_timer > 0){
 	exit;
 }
+audio_play_sound(snd_button_click, 1, false);
+
+
 sprite_index = spr_green_btn_clicked;
 image_index = 0;
 if(get_num_articles_viewed() % 5 == 0){
@@ -24,6 +26,7 @@ if(_correct_ans){
 	// the get_new_character function will be called first then the layer will be instantiated with the objects AND THATS A NONO
 	if(get_num_articles_viewed() % 5 != 0 ){get_new_character();}
 	obj_day_handler._click_timer = 60;
+	audio_play_sound(snd_verdict_correct, 1, false);
 }else{
 	increment_wrong_verdicts();
 	obj_day_handler._click_timer =300;
