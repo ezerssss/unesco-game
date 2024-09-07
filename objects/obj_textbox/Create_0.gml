@@ -7,9 +7,9 @@ text[4] = "As a result, the world wide web was reset and was renamed as WEB.";
 text[5] = "Your job is to repopulate the internet.";
 text[6] = "Determine which articles are A.I and which are from true humans. Use your handy MIL book for guidelines.";
 text[7] = "Goodluck! The fate of the internet rests in your hands.";
-
+text[8] = "Day 1";
 text_current = 0;
-text_last = 7;
+text_last = 8;
 text_width = 500;
 text_x = room_width / 2; 
 text_y = room_height / 2;
