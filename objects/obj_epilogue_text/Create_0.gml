@@ -22,14 +22,13 @@ text_width = 500;
 text_x = room_width/2;
 text_y = room_height/2;
 
-text[0] = string_wrap(text[0],text_width);
+/*text[0] = string_wrap(text[0],text_width);
 text[1] = string_wrap(text[1],text_width);
 text[2] = string_wrap(text[2],text_width);
 text[3] = string_wrap(text[3],text_width);
-text[4] = string_wrap(text[4],text_width);
+text[4] = string_wrap(text[4],text_width);*/
 
 char_current = 1;
 char_speed = 0.25;
 
-audio_play_sound(snd_prologue, 10, true);
-audio_play_sound(snd_cool_code,11,false);
+audio_play_sound(snd_cool_code, 11,false);
