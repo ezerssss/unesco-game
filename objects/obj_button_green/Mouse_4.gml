@@ -1,4 +1,9 @@
-/// @description determine verdict
+var _articles_viewed = get_num_articles_viewed();
+
+if (_articles_viewed == 15) {
+	room_goto(room_end_result);
+}
+
 if(obj_day_handler._click_timer > 0 or obj_day_handler._day_timer > 0){
 	exit;
 }
