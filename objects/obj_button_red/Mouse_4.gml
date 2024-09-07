@@ -1,7 +1,9 @@
-if(get_num_articles_viewed() % 5 == 0 ){
-	increment_day();
+if(obj_day_handler._click_timer > 0 or obj_day_handler._day_timer > 0){
+	exit;
 }
-
+if(get_num_articles_viewed() % 5 == 0 ){
+	obj_day_handler._day_timer = 300;
+}
 sprite_index = spr_red_btn_clicked;
 image_index = 0;
 
@@ -17,6 +19,6 @@ if(!_correct_ans){
 	show_debug_message("Wrong answer");
 }
 
-get_new_character();
-
+if(get_num_articles_viewed() % 5 != 0 ){get_new_character();}
+obj_day_handler._click_timer = 60;
 // change sprites

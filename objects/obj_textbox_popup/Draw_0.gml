@@ -7,4 +7,3 @@ draw_set_valign(fa_middle);
 draw_set_color(c_white);
 
 draw_text_ext(x, y, spr_title[text_current], 40, 350);
-
