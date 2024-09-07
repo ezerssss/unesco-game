@@ -4,11 +4,6 @@ randomize();
 // Load previous game state
 global.game_state = load_game_save();
 
-// Create new default game state
-if (global.game_state == undefined) {
-	new_game_save();
-} 
-
 function get_current_character() {
 	if (!global.game_state.current_character) {
 		throw("No current character! The game state is probably not instantiated properly, or have been tampered with manually.")
