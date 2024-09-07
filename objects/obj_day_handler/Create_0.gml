@@ -3,3 +3,4 @@
 _day_timer = -1;
 _click_timer = -1;
 
+_articles_viewed = get_num_articles_viewed();
