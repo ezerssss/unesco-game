@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_cool_code",
+  "%Name":"snd_victory",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":98.03753,
-  "name":"snd_cool_code",
+  "duration":123.6898,
+  "name":"snd_victory",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_cool_code.mp3",
+  "soundFile":"snd_victory.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -27,4 +27,4 @@ char_current = 1;
 char_speed = 0.25;
 		
 audio_play_sound(snd_prologue, 10, true);
-audio_play_sound(snd_cool_code, 11,false);
+audio_play_sound(snd_typewriter, 11,false);

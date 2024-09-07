@@ -1,3 +1,4 @@
+audio_play_sound(snd_menu_click, 1, false);
 new_game_save();
 global.status = 1;
 var _exists = false;

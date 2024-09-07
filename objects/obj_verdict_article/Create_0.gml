@@ -1,4 +1,6 @@
 // ****** ARTICLE VERDICT ******
+audio_play_sound(snd_verdict_wrong, 1, true);
+
 
 // textbox parameters
 textbox_width = 672;
