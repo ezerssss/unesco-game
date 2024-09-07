@@ -32,3 +32,5 @@ char_current = 1;
 char_speed = 0.25;
 
 audio_play_sound(snd_cool_code, 11,false);
+delete_game_save();
+
