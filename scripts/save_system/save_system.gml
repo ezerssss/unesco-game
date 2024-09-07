@@ -53,7 +53,7 @@ function delete_game_save() {
 }
 
 function has_save() {
-	return file_exists("game_state.json");	
+	return file_exists("game_state.json") && global.game_state != undefined;	
 }
 function new_game_save(){
 	var _new_article_queue = generate_article_queue();
